@@ -26,6 +26,7 @@ public class Replace {
             System.out.print("Please enter a word to be replace");
             insert = s.next();
 
+
             for(int i=0; i<inputSplits.size(); i++){
                 if(inputSplits.get(i).equals(insert)){
                     System.out.println("OK");
@@ -46,6 +47,7 @@ public class Replace {
         //System.out.println("OK");
         //System.out.println(inputSplits);
         inputSplits.set(inputSplits.indexOf(insert),replace);
+        //input.replace();
         //System.out.println(inputSplits);
         for(String s: inputSplits){
             System.out.print(s+" ");
